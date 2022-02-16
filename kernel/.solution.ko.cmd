@@ -1,0 +1,1 @@
+cmd_/home/kali/aleks/kernel/solution.ko := ld -r -m elf_x86_64 --build-id=sha1  -T /usr/src/linux-headers-5.9.0-kali5-common/scripts/module-common.lds -o /home/kali/aleks/kernel/solution.ko /home/kali/aleks/kernel/solution.o /home/kali/aleks/kernel/solution.mod.o;  true

@@ -1,0 +1,10 @@
+#all:    exe lib
+#
+#exe:    solution.h main.c lib
+#	gcc main.c -fPIC -L. -lSolution -o solution
+#
+lib:    library.h library.c
+	gcc -shared library.c -fPIC -o libLibrary.so
+#
+#clean:
+#	-rm solution libSolution.so 2>/dev/null
